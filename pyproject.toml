@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aisles"
+version = "0.1.0"
+description = ""
+authors = ["Harrison Ayan <harrisonayan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+black = {version = "^22.6.0", allow-prereleases = true}
+mypy = "^0.971"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
